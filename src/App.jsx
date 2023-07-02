@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
+import { Balance } from './components/Balance'
+import { History } from './components/History'
+import { AddTransaction } from './components/AddTransaction'
 
-function App() {
+const App = () => {
 
   return (
     <>
+      <Balance />
+      <History />
+      <AddTransaction />
     </>
   )
 }
